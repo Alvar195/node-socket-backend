@@ -1,26 +1,27 @@
 {
-  "name": "socket-backend",
-  "version": "1.0.0",
-  "description": "Socker backend project",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Alvar195/node-socket-backend.git"
-  },
-  "author": "boyswithideas",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Alvar195/node-socket-backend/issues"
-  },
-  "homepage": "https://github.com/Alvar195/node-socket-backend#readme",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "http": "0.0.0",
-    "nodemon": "^1.17.5",
-    "socket.io": "^2.1.1"
-  }
+	"name": "node-socket-backend",
+	"version": "0.0.1",
+	"description": "Socket backend project",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Alvar195/node-socket-backend.git"
+	},
+	"author": "boyswithideas",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Alvar195/node-socket-backend/issues"
+	},
+	"homepage": "https://github.com/Alvar195/node-socket-backend#readme",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.3",
+		"socket.io": "^2.1.1"
+	},
+	"devDependencies": {
+		"nodemon": "^1.17.5"
+	}
 }
